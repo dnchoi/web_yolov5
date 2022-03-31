@@ -25,7 +25,7 @@ jobs:                                # Job 설정
     runs-on: ubuntu-latest
     steps:
         - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ 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 }}
-          publish_dir: ./build
+          uses: peaceiris/actions-gh-pages@v3
+          with:
+            github_token: ${{ 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 }}
+            publish_dir: ./build
