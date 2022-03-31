@@ -24,8 +24,9 @@ jobs:                                # Job 설정
 
       - name: Build directory check
         run: tree
-        # run: npm run deploy
-        # with:
-          # github_token: ${{secrets.GITHUB_TOKEN}}
-          # publish_dir: ./build
-          # run: npm run deploy
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{secrets.GITHUB_TOKEN}}
+          publish_dir: ./build
