@@ -1,0 +1,21 @@
+name: 'Automatic build'
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      -name: Checkout source code
+       uses: actions/checkout@v2
+      
+      -name: Check Node version
+       run: node -v
+      
+      -name: Install Dependencies
+       run: npm install --frozen-lockfile
+
+      -name: build
+       run: npm run build
