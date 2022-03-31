@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/web_yolov5/static/css/main.e9ee4296.css",
+    "main.js": "/web_yolov5/static/js/main.c87dae2a.js",
+    "index.html": "/web_yolov5/index.html",
+    "main.e9ee4296.css.map": "/web_yolov5/static/css/main.e9ee4296.css.map",
+    "main.c87dae2a.js.map": "/web_yolov5/static/js/main.c87dae2a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9ee4296.css",
+    "static/js/main.c87dae2a.js"
+  ]
+}
