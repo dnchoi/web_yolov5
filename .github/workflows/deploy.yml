@@ -23,7 +23,7 @@ jobs:                                # Job 설정
         run: npm run build
 
       - name: Deploy
-        uses: dnchoi/web_yolov5
+        uses: dnchoi/web_yolov5@gh-pages
         with:
           github_token: ${{secrets.GITHUB_TOKEN}}
           publish_dir: ./build
