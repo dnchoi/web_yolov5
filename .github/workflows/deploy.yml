@@ -27,5 +27,5 @@ jobs:                                # Job 설정
         - name: Deploy
           uses: peaceiris/actions-gh-pages@v3
           with:
-            github_token: ${{ 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 }}
+            github_token: ${{secrets.GITHUB_TOKEN}}
             publish_dir: ./build
