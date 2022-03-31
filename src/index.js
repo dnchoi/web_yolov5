@@ -6,8 +6,8 @@ import "./styles.css";
 
 // const tf = require('@tensorflow/tfjs');
 
-const model_weights = 'https://dnchoi.github.io/web_yolov5/web_model/model.json';
-// const model_weights = '/web_model/model.json';
+// const model_weights = 'https://dnchoi.github.io/web_yolov5/web_model/model.json';
+const model_weights = '/web_model/model.json';
 // import model_weights from "../build/web_model/model.json"
 const names = ['person', 'bicycle', 'car', 'motorcycle', 'airplane', 'bus', 'train', 'truck', 'boat', 'traffic light',
                'fire hydrant', 'stop sign', 'parking meter', 'bench', 'bird', 'cat', 'dog', 'horse', 'sheep', 'cow',
