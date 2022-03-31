@@ -23,8 +23,8 @@ jobs:                                # Job 설정
         run: react-scripts start
         
       - name: Build                   # React Build
-        # run: npm run deploy
+        run: npm run deploy
         with:
           github_token: ${{secrets.GITHUB_TOKEN}}
           # publish_dir: ./build
-          run: npm run deploy
+          # run: npm run deploy
