@@ -5,6 +5,8 @@ import * as tf from "@tensorflow/tfjs";
 import "./styles.css";
 
 // const tf = require('@tensorflow/tfjs');
+var link = document.location.href; 
+console.log(link);
 
 const model_weights = 'https://dnchoi.github.io/web_yolov5/web_model/model.json';
 // const model_weights = '/web_model/model.json';
