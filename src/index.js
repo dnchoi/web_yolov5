@@ -8,7 +8,7 @@ import "./styles.css";
 var link = document.location.href; 
 console.log(link);
 
-const model_weights = 'https://dnchoi.github.io/web_yolov5/web_model/model.json';
+const model_weights = '/web_yolov5/web_model/model.json';
 // const model_weights = '/web_model/model.json';
 // import model_weights from "../build/web_model/model.json"
 const names = ['person', 'bicycle', 'car', 'motorcycle', 'airplane', 'bus', 'train', 'truck', 'boat', 'traffic light',
